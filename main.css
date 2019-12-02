@@ -1,0 +1,208 @@
+/* HEADER */
+
+#mainNav {
+  background: #000000;
+}
+#sousheader {
+  background: url("images/homme-pensif-costume-bleu-est-assis-rebord-fenetre_8353-8843.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+}
+
+#ImageEleg {
+}
+
+.logo {
+  width: 9%;
+}
+
+.categories{
+  color: darkgoldenrod;
+}
+.categories:hover {
+  color: whitesmoke;
+}
+
+.panier {
+  width: 45px;
+  border-radius: 25%;
+}
+
+.compte {
+  width: 45px;
+  border-radius: 25%;
+}
+
+#elegance {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+}
+
+/* ////////////// */
+
+/* CONTAIN */
+
+.divProduitsConteneur {
+  width: 85%;
+  margin: 0px auto;
+}
+
+#about {
+  background: #000000;
+}
+
+.texte-nos-produits {
+  color: #3a448c;
+  padding: 40px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.3em;
+  /* background-color: blueviolet; */
+}
+
+.divBizarre {
+  margin-top: 10px;
+}
+.cartes {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.43);
+  cursor: pointer;
+}
+
+/* ////////////// */
+
+/* CONTAIN LOGIN */
+
+@import "bourbon";
+
+body {
+  background: #eee !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  .form-signin-heading,
+  .checkbox {
+    margin-bottom: 30px;
+  }
+
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+/* //////////////////// */
+
+/* ///////////  CONTENU T-SHIRTS   ///////// */
+
+.modalT {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  z-index: 10 !important;
+}
+.modal-backdrop {
+  z-index: -3 !important;
+}
+.contenuImgetText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.divText {
+  width: 50%;
+}
+
+.croix {
+  cursor: pointer;
+  color: cornsilk;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  padding: 0px 7px 7px 7px;
+  border-radius: 50%;
+}
+
+#croixRouge {
+  margin-left: auto;
+}
+/* //////////////////// */
+
+/* FOOTER */
+
+#footerCol {
+  background: #000000;
+  color: white;
+}
+#sinanHill {
+  font-weight: bold;
+}
+
+.iconSocial {
+  width: 40px;
+}
+.iconSocial:hover {
+  opacity: 0.33;
+  cursor: pointer;
+}
+
+/* ////////////// */
+
+@media only screen and (max-width: 992px) {
+  /*tt ce qu'il y aura dans les curly sera valable jusqu'à une taille d'écran de 914px*/
+  .carteSansmb4 {
+    margin-bottom: 30px;
+  }
+}
