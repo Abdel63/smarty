@@ -187,7 +187,12 @@ body {
   color: white;
 }
 #sinanHill {
+  color:darkgoldenrod;
   font-weight: bold;
+}
+
+#sinanHill:hover{
+  color: whitesmoke;
 }
 
 .iconSocial {
